@@ -17,8 +17,8 @@ alias tomcatstop='/usr/local/tomcat/bin/shutdown.sh'
 
 PS1="\[\033[36m\]\u\[\033[33m\]@\[\033[33m\]\h:\[\033[35m\]\W\[\033[m\]\$ "
 
-source ~/.dotfiles/bash/.git-completion.bash
-source ~/.dotfiles/bash/.proxy.bash
+source ~/.dotfiles/bash/git-completion.bash
+source ~/.dotfiles/bash/proxy.bash
 
 # bash history commands
 export HISTCONTROL=erasedups
