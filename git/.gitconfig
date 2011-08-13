@@ -1,0 +1,14 @@
+[user]
+  name = FENG Zhichao
+  email = flankerfc@gmail.com
+[alias]
+  ci = commit
+  co = checkout
+  st = status
+[color]
+  ui = true
+[color "diff"]
+  meta = magenta
+  frag = yellow
+  old = red
+  new = cyan
