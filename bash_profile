@@ -6,7 +6,7 @@ alias hi='cd ~/Dev/REA/home-ideas'
 alias rea='cd ~/Dev/REA'
 alias hit='cd ~/Dev/REA/home-ideas-team'
 alias dev='cd ~/Dev'
-
+alias higo='bundle exec buildr homeideas:web:go test=no'
 
 alias http_proxy='export http_proxy="http://gw01.dev.int.realestate.com.au:8080/"'
 alias be='bundle exec'
