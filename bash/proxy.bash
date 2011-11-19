@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# `proxy on/off` to change system proxy status
 function proxy () {
   if [ -n "$1" ]; then
     state=$1
