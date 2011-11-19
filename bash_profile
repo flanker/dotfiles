@@ -1,17 +1,14 @@
+# alias for commands
 alias ls="ls -AGFh"
 alias ll="ls -l"
 alias grep='grep --color'
 alias m="mvim ."
-
-alias hi='cd ~/Dev/REA/home-ideas'
-alias rea='cd ~/Dev/REA'
-alias hit='cd ~/Dev/REA/home-ideas-team'
-alias dev='cd ~/Dev'
-alias higo='bundle exec buildr hi:app:go test=no'
-alias chef='cd ~/Dev/REA/chef-repo'
-
-alias http_proxy='export http_proxy="http://gw01.dev.int.realestate.com.au:8080/"'
 alias be='bundle exec'
+
+# alias for file and directory
+alias dev='cd ~/Dev'
+
+# alias for commands
 alias mysqlstart='sudo /usr/local/mysql/bin/mysqld_safe --user=mysql'
 alias mysqlstop='/usr/local/mysql/bin/mysqladmin -u root -p shutdown'
 alias tomcatstart='/usr/local/tomcat/bin/startup.sh'
@@ -20,8 +17,12 @@ alias tomcatstop='/usr/local/tomcat/bin/shutdown.sh'
 PS1="\[\033[36m\]\u\[\033[33m\]@\[\033[35m\]\W\[\033[m\]\$ "
 
 PATH=/usr/local/bin:$PATH
-source ~/.dotfiles/bash/git-completion.bash
-source ~/.dotfiles/bash/proxy.bash
+
+# load all bash files
+for f in ~/.dotfiles/bash/*.bash
+do
+  source $f
+done
 
 # bash history commands
 export HISTCONTROL=erasedups
