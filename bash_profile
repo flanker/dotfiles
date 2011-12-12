@@ -14,6 +14,9 @@ alias mysqlstop='/usr/local/mysql/bin/mysqladmin -u root -p shutdown'
 alias tomcatstart='/usr/local/tomcat/bin/startup.sh'
 alias tomcatstop='/usr/local/tomcat/bin/shutdown.sh'
 
+# use vi mode
+set -o vi
+
 PS1="\[\033[36m\]\u\[\033[33m\]@\[\033[35m\]\W\[\033[m\]\$ "
 
 PATH=/usr/local/bin:$PATH
