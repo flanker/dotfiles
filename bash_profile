@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # use vi mode
-set -o vi
+# set -o vi
 
 PS1="\[\033[36m\]\u\[\033[33m\]@\[\033[35m\]\W\[\033[m\]\$ "
 
