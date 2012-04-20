@@ -1,18 +1,4 @@
-# alias for commands
-alias ls="ls -AGFh"
-alias ll="ls -l"
-alias grep='grep --color'
-alias m="mvim ."
-alias be='bundle exec'
-
-# alias for file and directory
-alias dev='cd ~/Dev'
-
-# alias for commands
-alias mysqlstart='sudo /usr/local/mysql/bin/mysqld_safe --user=mysql'
-alias mysqlstop='/usr/local/mysql/bin/mysqladmin -u root -p shutdown'
-alias tomcatstart='/usr/local/tomcat/bin/startup.sh'
-alias tomcatstop='/usr/local/tomcat/bin/shutdown.sh'
+#!/bin/bash
 
 # use vi mode
 set -o vi
