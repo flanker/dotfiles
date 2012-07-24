@@ -12,6 +12,7 @@ txtblu='\[\e[0;34m\]' # Blue
 txtpur='\[\e[0;35m\]' # Purple
 txtcyn='\[\e[0;36m\]' # Cyan
 txtwht='\[\e[0;37m\]' # White
+txtrst='\[\e[0m\]'    # Text Reset
 
 GIT_BRANCH=$(git branch 2>/dev/null | grep -e '\* ' | sed 's/^..\(.*\)/<\1>/')
 PS1="${txtcyn}\u${txtylw}@${txtpur}\W${txtred}${GIT_BRANCH}${txtrst}\$ "
