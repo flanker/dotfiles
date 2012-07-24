@@ -5,6 +5,7 @@
   ci = commit
   co = checkout
   st = status
+  an = annotate
 [color]
   ui = true
 [color "diff"]
