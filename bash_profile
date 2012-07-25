@@ -37,13 +37,3 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.nvm/nvm.sh" ]] && . "$HOME/.nvm/nvm.sh"
-
-ccd () {
-  command cd "$@";
-  if [ -f ./buildfile ]; then
-    echo "test"
-    complete -W "$(be buildr -T | awk 'NR != 1 {print $2}')" rake
-  else
-    complete -r rake
-  fi
-}
