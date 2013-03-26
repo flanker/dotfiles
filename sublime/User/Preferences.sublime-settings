@@ -1,15 +1,34 @@
 {
-  "vintage_start_in_command_mode": true,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "drawWhiteSpace": true,
-  "matchBracketsAngle": true,
-  "matchBracketsBraces": true,
-  "matchBracketsSquare": true,
-  "rulers": [ 80 ],
-  "show_minimap": false,
-  "trimTrailingWhiteSpaceOnSave": true,
-  "highlight_modified_tabs": true,
-	"font_size": 15.0,
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "tmp", "coverage", "reports"]
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"drawWhiteSpace": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"coverage",
+		"reports",
+		"tmp"
+	],
+	"font_size": 18.0,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"matchBracketsAngle": true,
+	"matchBracketsBraces": true,
+	"matchBracketsSquare": true,
+	"rulers":
+	[
+		80
+	],
+	"show_minimap": false,
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trimTrailingWhiteSpaceOnSave": true,
+	"vintage_start_in_command_mode": true,
+	"word_wrap": false
 }
