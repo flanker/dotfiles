@@ -27,7 +27,7 @@ done
 
 # bash history commands
 export HISTCONTROL=erasedups
-export HISTSIZE=1000
+export HISTSIZE=100000
 shopt -s histappend
 
 export EDITOR=vim
@@ -37,3 +37,6 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.nvm/nvm.sh" ]] && . "$HOME/.nvm/nvm.sh"
+
+export JAVA_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
+export GRADLE_OPTS="-Xmx2048m -Xms1024m -XX:MaxPermSize=2048m"
