@@ -13,3 +13,5 @@
   frag = yellow
   old = red
   new = cyan
+[push]
+  default = current
