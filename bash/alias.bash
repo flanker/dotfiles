@@ -5,6 +5,8 @@ alias grep='grep --color'
 alias m="mvim ."
 alias be='bundle exec'
 
+alias du1='du -d 1 -k | sort -n'
+
 # alias for file and directory
 alias dev='cd ~/Dev'
 
