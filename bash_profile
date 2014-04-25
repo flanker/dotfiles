@@ -17,7 +17,7 @@ txtrst='\[\e[0m\]'    # Text Reset
 GIT_BRANCH="\$(git branch 2>/dev/null | grep -e '\* ' | sed 's/^..\(.*\)/<\1>/')"
 PS1="${txtcyn}\u${txtylw}@${txtpur}\W${txtred}${GIT_BRANCH}${txtrst}\$ "
 
-PATH=/usr/local/bin:/usr/local/mongodb/bin:$PATH
+PATH=/usr/local/sbin:/usr/local/bin:/usr/local/mongodb/bin:$PATH
 
 # load all bash files
 for f in ~/Dev/mygithub/dotfiles/bash/*.bash
@@ -36,7 +36,9 @@ export CLICOLOR=1
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-[[ -s "$HOME/.nvm/nvm.sh" ]] && . "$HOME/.nvm/nvm.sh"
 
 export JAVA_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
 export GRADLE_OPTS="-Xmx2048m -Xms1024m -XX:MaxPermSize=2048m"
+
+ulimit -S -n 1024
+
