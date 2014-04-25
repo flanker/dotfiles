@@ -10,5 +10,5 @@ mv .bash_profile $bak_dir
 mv .gitconfig $bak_dir
 
 ln -s ~/Dev/mygithub/dotfiles/bash_profile ~/.bash_profile
-ln -s ~/Dev/mygithub/dotfiles/gitconfig ~/.gitconfig
-ln -s ~/Dev/mygithub/dotfiles/sublime/User ~/Library/Application Support/Sublime Text 2/Packages/User
+ln -s ~/Dev/mygithub/dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/Dev/mygithub/dotfiles/sublime/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
