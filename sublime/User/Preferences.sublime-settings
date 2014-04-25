@@ -9,9 +9,11 @@
 		"CVS",
 		"coverage",
 		"reports",
-		"tmp"
+		"condor/public",
+		".tmp",
+		".sass-cache"
 	],
-	"font_size": 18.0,
+	"font_size": 16.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[

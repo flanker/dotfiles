@@ -3,10 +3,15 @@
 	"installed_packages":
 	[
 		"Caret History",
+		"CoffeeScript",
+		"CTags",
 		"Cucumber",
+		"Indent XML",
 		"Package Control",
 		"RubyTest",
 		"Table Cleaner",
-		"Theme - Soda"
+		"Tag",
+		"Theme - Soda",
+		"VintageEx"
 	]
 }
