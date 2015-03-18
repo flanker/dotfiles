@@ -35,6 +35,9 @@ export EDITOR=vim
 export CLICOLOR=1
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 export JAVA_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
