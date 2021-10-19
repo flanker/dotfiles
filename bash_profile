@@ -20,7 +20,7 @@ PS1="${txtcyn}\u${txtylw}@${txtpur}\W${txtred}${GIT_BRANCH}${txtrst}\$ "
 PATH=/usr/local/sbin:/usr/local/bin:/usr/local/mongodb/bin:$PATH
 
 # load all bash files
-for f in ~/Dev/github/dotfiles/bash/*.bash
+for f in ~/Dev/mygithub/dotfiles/bash/*.bash
 do
   source $f
 done
