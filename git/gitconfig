@@ -16,5 +16,7 @@
 [push]
   default = current
 [core]
-	commentchar = ";"
-	excludesfile = /Users/zhichao/.gitignore_global
+  commentchar = ";"
+  excludesfile = /Users/zhichao/.gitignore_global
+[pull]
+  ff = only
